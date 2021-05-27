@@ -3,7 +3,7 @@
 
 int main() {
 	freopen("23input.txt", "rt", stdin);
-	int n, i, pre, now, cnt = 1, max;
+	int n, i, pre, cnt = 1, max;
 	scanf("%d", &n);
 	std::vector<int> seq(n);	
 	for (i = 0; i < n; ++i) {
